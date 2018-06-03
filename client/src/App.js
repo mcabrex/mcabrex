@@ -55,7 +55,7 @@ class App extends Component {
             //here we check the pageTableChildren array for the child we Clicked on, if it isn't expanded then its clickSwitch should be off
             //set clickSwitch to true (because now we HAVE clicked it) and expand the child
             child.clickSwitch = true
-            child.growth = 3
+            child.growth = 10
           } else {
             //every other situation you want to collapse the target
             child.clickSwitch = false
@@ -64,7 +64,6 @@ class App extends Component {
           return child
         }),
       })
-    console.log(Number(e.target.id),'this was clicked')
   }
 
   createPageChildren(){

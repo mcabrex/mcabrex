@@ -5,7 +5,6 @@
 }
 
 .Page-Table {
-  background-color: yellow;
   margin: 10vh 15vw 0 15vw;
   height: 50vh;
   width: 70vw;
@@ -19,7 +18,7 @@
   margin: 1vh;
   background-color: lightblue;
   flex-grow: 1;
-  flex-shrink: 0;
+  transition: flex-grow .5s;
   display: flex;
   flex-direction: column;
 }
