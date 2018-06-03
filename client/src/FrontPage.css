@@ -1,0 +1,29 @@
+.Title {
+  margin-top: 15vh;
+  text-align: center;
+  font-family: 'Arvo', serif;
+}
+
+.Page-Table {
+  background-color: yellow;
+  margin: 10vh 15vw 0 15vw;
+  height: 50vh;
+  width: 70vw;
+  text-align: center;
+  display: flex;
+  /* align-items: stretch; */
+}
+
+.Page-Table-Children {
+  border: 3px solid rgba(0,0,0,.2);
+  margin: 1vh;
+  background-color: lightblue;
+  flex-grow: 1;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.Page-Table-Children:hover {
+  background-color: gray;
+}
