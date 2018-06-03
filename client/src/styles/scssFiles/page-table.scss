@@ -1,0 +1,19 @@
+.page-table {
+  margin: 10vh 15vw 0 15vw;
+  height: 50vh;
+  width: 70vw;
+  text-align: center;
+  display: flex;
+  &-children {
+    border: 3px solid rgba(0,0,0,.2);
+    margin: 1vh;
+    background-color: orange;
+    flex-grow: 1;
+    transition: flex-grow .5s;
+    display: flex;
+    flex-direction: column;
+    &:hover {
+      background-color: skyblue;
+    }
+  }
+}

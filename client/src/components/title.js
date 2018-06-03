@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import '../FrontPage.css';
 
 export default class Title extends Component {
     constructor(props){
@@ -34,7 +33,7 @@ export default class Title extends Component {
     render() {
       return (
         <div>
-            <h1 className="Title">{this.state.title}</h1>
+            <h1 className="title">{this.state.title}</h1>
         </div>
       );
     }

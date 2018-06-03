@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import '../FrontPage.css';
-
 
 let pageTableChildren = []
 for(let i = 0; i < 4; i++){
@@ -47,7 +45,7 @@ export default class PageTable extends Component {
         let pages = []
         for(let i = 0; i < 4; i++){
           pages.push(
-            <div key={i} id={i} className="Page-Table-Children" onClick={this.handleClick} style={
+            <div key={i} id={i} className="page-table-children" onClick={this.handleClick} style={
               {
                 flexGrow: this.state.pageTableChildren[i].growth
               }
@@ -59,7 +57,7 @@ export default class PageTable extends Component {
 
     render() {
       return (
-        <div className="Page-Table">
+        <div className="page-table">
           {this.createPageChildren()}
         </div>
       );

@@ -1,6 +1,5 @@
 import React from 'react';
 import {PageTable, Title} from './components'
-import './FrontPage.css';
 
 const App = ()=> {
   return (
