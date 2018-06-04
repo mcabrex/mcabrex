@@ -4,7 +4,7 @@
   width: 70vw;
   text-align: center;
   display: flex; }
-  .page-table-children {
+  .page-table-columns {
     border: 3px solid rgba(0, 0, 0, 0.2);
     margin: 1vh;
     background-color: orange;
@@ -12,5 +12,5 @@
     transition: flex-grow .5s;
     display: flex;
     flex-direction: column; }
-    .page-table-children:hover {
+    .page-table-columns:hover {
       background-color: skyblue; }

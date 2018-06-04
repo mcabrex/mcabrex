@@ -1,2 +1,2 @@
-export {default as PageTable} from './page-table'
-export {default as Title} from './title'
+export {default as PageTable} from './PageTable'
+export {default as Title} from './Title'
