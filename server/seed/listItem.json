@@ -1,0 +1,23 @@
+[
+    {
+        "title": "Old Boy",
+        "description": "After being kidnapped and imprisoned for fifteen years, Oh Dae-Su is released, only to find that he must find his captor in five days.",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BMTI3NTQyMzU5M15BMl5BanBnXkFtZTcwMTM2MjgyMQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "linkUrl": "https://www.imdb.com/title/tt0364569/",
+        "listId": 1
+    },
+    {
+        "title": "Kung Fu Hustle",
+        "description": "In Shanghai, China in the 1940s, a wannabe gangster aspires to join the notorious \"Axe Gang\" while residents of a housing complex exhibit extraordinary powers in defending their turf.",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BYmNhNzE2YjEtMDNmNS00ZGNkLTljZjktYTdlNGNmYzBmNjIyL2ltYWdlXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_.jpg",
+        "linkUrl": "https://www.imdb.com/title/tt0373074/",
+        "listId": 1
+    },
+    {
+        "title": "Dawn of the Dead (2004)",
+        "description": "A nurse, a policeman, a young married couple, a salesman, and other survivors of a worldwide plague that is producing aggressive, flesh-eating zombies, take refuge in a mega Midwestern shopping mall.",
+        "imageUrl": "https://m.media-amazon.com/images/M/MV5BN2M2ZmU2OGQtNmU5Yi00MTIyLTgwNWMtYjljMzZlYTdiNjBhXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_UX182_CR0,0,182,268_AL_.jpg",
+        "linkUrl": "https://www.imdb.com/title/tt0363547/",
+        "listId": 1
+    }
+]
