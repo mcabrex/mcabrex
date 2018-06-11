@@ -1,6 +1,7 @@
 [
     {
         "title": "Top 3 Movies",
-        "description": "My top 3 favorite movies"
+        "description": "My top 3 favorite movies",
+        "listType": "Favorites"
     }
 ]

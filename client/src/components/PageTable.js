@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import PageTableColumn from './PageTableColumn'
+
 
 let pageTableColumns = []
 for(let i = 0; i < 4; i++){
@@ -49,7 +51,8 @@ export default class PageTable extends Component {
           {
             flexGrow: this.state.pageTableColumns[i].growth
           }
-        }/>
+        }>
+        </div>
       )
     }
     return pages
@@ -60,6 +63,6 @@ export default class PageTable extends Component {
       <div className="page-table">
         {this.createPageChildren()}
       </div>
-    );
+    )
   }
 }
