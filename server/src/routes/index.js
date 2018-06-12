@@ -10,17 +10,6 @@ router.get('/', (req,res)=>{
 
 router.get('/users', userController.index);
 
-router.get('/projects', (req,res)=> {
-    res.json([
-        {
-            "title": "Crossover",
-            "description": "Web application for building comics with friends",
-        },
-        {
-            "title": "Jokes On You!",
-            "description": "An android application for generating silly daily jokes!",
-        }
-    ])
-})
+router.get('/projects', projectController.index)
 
 module.exports = router;
