@@ -52,6 +52,7 @@ export default class PageTable extends Component {
             flexGrow: this.state.pageTableColumns[i].growth
           }
         }>
+          <PageTableColumn />
         </div>
       )
     }

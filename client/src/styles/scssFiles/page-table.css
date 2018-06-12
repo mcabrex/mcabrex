@@ -14,3 +14,11 @@
     flex-direction: column; }
     .page-table-columns:hover {
       background-color: skyblue; }
+  .page-table-project {
+    background-color: greenyellow;
+    flex-grow: 1;
+    transition: flex-grow .5s;
+    display: flex;
+    flex-direction: column; }
+    .page-table-project:hover {
+      background-color: rebeccapurple; }

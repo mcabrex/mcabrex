@@ -16,4 +16,14 @@
       background-color: skyblue;
     }
   }
+  &-project {
+    background-color: greenyellow;
+    flex-grow: 1;
+    transition: flex-grow .5s;
+    display: flex;
+    flex-direction: column;
+    &:hover {
+      background-color: rebeccapurple;
+    }
+  }
 }
