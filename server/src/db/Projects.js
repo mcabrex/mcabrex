@@ -6,5 +6,13 @@ module.exports = [
     {
         "title": "Jokes On You!",
         "description": "An android application for generating silly daily jokes!",
-    }
+    },
+    {
+        "title": "Generic Api Project",
+        "description": "This is a project",
+    },
+    {
+        "title": "Not a project",
+        "description": "This is not a project"
+    },
 ]
